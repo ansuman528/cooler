@@ -1331,13 +1331,29 @@ strong {
     padding: 20px; }
   .contact-form .input-field.name {
     margin-right: 0; }
+    .item-3d
+    {
+      padding: 0;
+      margin: 0;
+      height: 40vh;
+    }
   
   }
 
 
 /* for dynamic backgriund */
-    .background-container
-    {position: fixed;
-      top:0;left:0;z-index:-100;width:100%;height:100%;}
+    .background-container{
+      position: fixed;
+      top:0;
+      left:0;
+      z-index:-100;
+      width:100%;
+      height:100%;
+    }
 .background-container img{
-  background-size: auto;}
+  background-size: auto;
+}
+#indexsvg
+{
+  height: 100vh;
+}
