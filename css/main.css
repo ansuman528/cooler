@@ -225,8 +225,8 @@ textarea, label {
 /*------------------------------------------------
 	Start Styling
 -------------------------------------------------*/
-.site-wrapper {
-  border-top: 4px solid #FA6862; }
+/* .site-wrapper {
+  border-top: 4px solid #FA6862; } */
 
 .page-close {
   font-size: 30px;
@@ -309,6 +309,7 @@ textarea, label {
   background-repeat: no-repeat;
   background-size: cover;
   vertical-align: middle;
+  color: black;
  }
   
 
@@ -349,13 +350,14 @@ textarea, label {
         height: 15px; }
     .hexagon-item:hover .hex-item div::before,
     .hexagon-item:hover .hex-item div::after {
-      background-color: #99c4ff; }
+      background-color: #3c54ff; }
     .hexagon-item:hover .hex-content svg {
       -webkit-transform: scale(0.97);
       -moz-transform: scale(0.97);
       -ms-transform: scale(0.97);
       -o-transform: scale(0.97);
-      transform: scale(0.97); }
+      transform: scale(0.97);
+     }
 
 .page-home .hexagon-item:nth-last-child(1),
 .page-home .hexagon-item:nth-last-child(2),
@@ -398,7 +400,7 @@ textarea, label {
     -o-transform-origin: center center;
     transform-origin: center center; }
     .hex-item div::before, .hex-item div::after {
-      background-color: #1e2530;
+      background-color: dodgerblue;
       content: "";
       position: absolute;
       width: 100%;
@@ -431,7 +433,7 @@ textarea, label {
       transform: rotate(120deg); }
 
 .hex-content {
-  color: #00e8a2;
+  color: #fafafa;
   display: block;
   height: 180px;
   margin: 0 auto;
@@ -472,7 +474,7 @@ textarea, label {
     -o-transition: all 0.3s cubic-bezier(0.165, 0.84, 0.44, 1) 0s;
     transition: all 0.3s cubic-bezier(0.165, 0.84, 0.44, 1) 0s; }
   .hex-content:hover {
-    color: #fff; }
+    color: #0f68fd; }
 
 /*------------------------------------------------
     Welcome Page
