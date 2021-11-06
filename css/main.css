@@ -1216,12 +1216,14 @@ textarea, label {
     margin-right: 50px;
     padding: 20px; }
   .contact-form .input-field.name {
-    margin-right: 0; } }
+    margin-right: 0; }
+  
+  }
 
 
 /* for dynamic backgriund */
     .background-container
     {position: fixed;
-      background: fixed;
-      top:0;left:0;z-index:-100;width:100%;height:100vh}
-.background-container img{height:100vh;width:100%}
+      top:0;left:0;z-index:-100;width:100%;height:100%}
+.background-container img{
+  height:100vh;width:100%}
