@@ -560,7 +560,7 @@ strong {
  .item-img img {
     display: block;
     width: 80%;
-    height: 80vh;
+    height: 80%;
   }
 
 .item-3d:nth-child(even) .item-img {
