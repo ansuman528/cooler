@@ -1,0 +1,66 @@
+body{
+    
+}
+.service-hex {
+    float: left;
+    position: relative;
+    width: 20%;
+    z-index: 1; }
+    .service-hex svg {
+      -webkit-transform: scale(1.08);
+      -moz-transform: scale(1.08);
+      -ms-transform: scale(1.08);
+      -o-transform: scale(1.08);
+      transform: scale(1.08);
+      -webkit-transition: all 0.4s ease 0s;
+      -moz-transition: all 0.4s ease 0s;
+      -o-transition: all 0.4s ease 0s;
+      transition: all 0.4s ease 0s; }
+    .service-hex .st0 {
+      stroke: #04f828;
+      fill: #8ee2f9; }
+    .service-hex .st1 {
+      fill: #38388b; }
+    .service-hex .content {
+      color: #fff;
+      left: 50%;
+      position: absolute;
+      text-align: center;
+      top: 50%;
+      width: 100%;
+      -webkit-transform: translate(-50%, -50%);
+      -moz-transform: translate(-50%, -50%);
+      -ms-transform: translate(-50%, -50%);
+      -o-transform: translate(-50%, -50%);
+      transform: translate(-50%, -50%); }
+    .service-hex .icon {
+      font-size: 30px;
+      margin-bottom: 9px; }
+    .service-hex h4 {
+      color: #ffffff;
+      font-size: 16px;
+      margin-bottom: 20px; }
+    .service-hex p {
+      font-size: 14px;
+      height: 0;
+      line-height: 24px;
+      overflow: hidden;
+      -webkit-transition: all 0.4s ease 0s;
+      -moz-transition: all 0.4s ease 0s;
+      -o-transition: all 0.4s ease 0s;
+      transition: all 0.4s ease 0s; }
+    .service-hex:hover {
+      z-index: 2; }
+      .service-hex:hover svg {
+        -webkit-transform: scale(1.5);
+        -moz-transform: scale(1.5);
+        -ms-transform: scale(1.5);
+        -o-transform: scale(1.5);
+        transform: scale(1.5); }
+      .service-hex:hover .st1 {
+        fill: #373fc1; }
+      .service-hex:hover .content {
+        width: 135%; }
+      .service-hex:hover p {
+        height: 72px; }
+  
